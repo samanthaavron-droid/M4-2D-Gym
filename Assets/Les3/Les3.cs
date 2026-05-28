@@ -23,6 +23,7 @@ public class Les3 : MonoBehaviour
         worldPosotion.z = 0;
 
         Vector3Int CellPosition = tilemap.WorldToCell(worldPosotion);
+        Debug.Log(CellPosition);
 
         for (int i = 0 + x0; i < bounds.size.x; i++)
         {
